@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raluca-Victoria Pășcuță — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">raluca<span>.pășcuță</span></div>
+        <div class="nav-links">
+            <a onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">About</a>
+            <a onclick="document.getElementById('awards').scrollIntoView({behavior:'smooth'})">Achievements</a>
+            <a onclick="document.getElementById('behind').scrollIntoView({behavior:'smooth'})">Behind the work</a>
+            <a onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">Projects</a>
+            <a onclick="document.getElementById('skills').scrollIntoView({behavior:'smooth'})">Skills</a>
+            <a onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <div class="hero-eyebrow">Computer Science · Cluj-Napoca</div>
+            <h1 class="hero-title">Code with<br>architecture.<br><em>Algorithms<br>with purpose.</em></h1>
+            <div class="hero-counter">
+                <div>
+                    <div class="counter-n">2</div>
+                    <div class="counter-l">years of university</div>
+                </div>
+                <div>
+                    <div class="counter-n">2</div>
+                    <div class="counter-l">national awards</div>
+                </div>
+                <div>
+                    <div class="counter-n">∞</div>
+                    <div class="counter-l">coffees</div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="hero-desc">Hi! I'm Raluca Pășcuță - a second-year Computer Science student at Babeș-Bolyai
+                University in Cluj-Napoca. I enjoy building projects that make a real difference in people's everyday
+                lives.</div>
+            <button class="btn-primary"
+                onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">See projects
+                →</button>
+            <button class="btn-ghost"
+                onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact</button>
+        </div>
+    </section>
+
+    <div class="ticker-wrap">
+        <div class="ticker">
+            <span class="ticker-item">Java <span>·</span></span>
+            <span class="ticker-item">C++ / Qt <span>·</span></span>
+            <span class="ticker-item">Python <span>·</span></span>
+            <span class="ticker-item">SQL Server <span>·</span></span>
+            <span class="ticker-item">Arduino <span>·</span></span>
+            <span class="ticker-item">OOP <span>·</span></span>
+            <span class="ticker-item">Layered Architecture <span>·</span></span>
+            <span class="ticker-item">Data Structures <span>·</span></span>
+            <span class="ticker-item">Algorithms <span>·</span></span>
+            <span class="ticker-item">Hackathons <span>·</span></span>
+            <span class="ticker-item">Java <span>·</span></span>
+            <span class="ticker-item">C++ / Qt <span>·</span></span>
+            <span class="ticker-item">Python <span>·</span></span>
+            <span class="ticker-item">SQL Server <span>·</span></span>
+            <span class="ticker-item">Arduino <span>·</span></span>
+            <span class="ticker-item">OOP <span>·</span></span>
+            <span class="ticker-item">Layered Architecture <span>·</span></span>
+            <span class="ticker-item">Data Structures <span>·</span></span>
+            <span class="ticker-item">Algorithms <span>·</span></span>
+            <span class="ticker-item">Hackathons <span>·</span></span>
+        </div>
+    </div>
+
+    <section class="section" id="about">
+        <div class="section-label">About</div>
+        <div>
+            <div class="about-lead">I don't wait to be assigned problems. I find them.</div>
+            <div class="about-body">
+                <p>My passion for building started early. During high school, I joined the DpIT Academy (Discover Your
+                    Passion in IT) where I created FlyBox — an emergency delivery solution designed to attach to any
+                    commercially-available drone capable of carrying at least 300g. That project taught me that good
+                    software solves real problems for real people.</p>
+                <p>In my first year at UBB, I started working on another project, teaming up with two students from UTCN
+                    to build Nabu - a personal AI therapist exploring how technology can support mental health. Together
+                    we competed in two competitions and I wrote a research paper about the project, which I presented at
+                    a student academic conference. Working across two universities taught me that the best solutions
+                    come from people who think differently.</p>
+                <p>The summer between my first and second year took me to the US on a Work & Travel program, where I
+                    sharpened my English, learned to navigate an entirely different culture, adapt fast, work in
+                    international teams, and be comfortable with uncertainty. It's the kind of experience that changes
+                    how you think, not just how you communicate.</p>
+            </div>
+            <div class="tag-row">
+                <span class="tag">UBB Cluj · 2024–present</span>
+                <span class="tag">Looking for an internship</span>
+                <span class="tag">Cluj-Napoca</span>
+                <span class="tag">English C1</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="awards">
+        <div class="section-label">Achievements</div>
+        <div class="awards-grid">
+            <div class="award-card">
+                <div class="award-top">
+                    <div class="award-name">Cassini International Hackathon</div>
+                    <span class="award-badge badge-gold">2nd place · National</span>
+                </div>
+                <div class="award-sub">International hackathon competition, national stage. Built a working solution
+                    under time pressure in a cross-functional team.</div>
+                <div class="award-year">2025</div>
+            </div>
+            <div class="award-card">
+                <div class="award-top">
+                    <div class="award-name">ACSC Student Conference</div>
+                    <span class="award-badge badge-blue">Research paper</span>
+                </div>
+                <div class="award-sub">"Nabu, The Personal AI Therapist" — scientific paper presented at a student
+                    academic conference.</div>
+                <div class="award-year">2025</div>
+            </div>
+            <div class="award-card">
+                <div class="award-top">
+                    <div class="award-name">IoT Student Challenge</div>
+                    <span class="award-badge badge-silver">4th place</span>
+                </div>
+                <div class="award-sub">Student competition focused on Internet of Things solutions and embedded systems.
+                </div>
+                <div class="award-year">2025</div>
+            </div>
+            <div class="award-card">
+                <div class="award-top">
+                    <div class="award-name">Descoperă-ți Pasiunea în IT</div>
+                    <span class="award-badge badge-teal">2nd place · Final project</span>
+                </div>
+                <div class="award-sub">10-month IT training program. Awarded 2nd place for the final project among all
+                    participants.</div>
+                <div class="award-year">2020–2021</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="behind" id="behind">
+        <div class="behind-header">
+            <div class="section-label">Behind the work</div>
+            <div class="behind-sub">A closer look at the projects and experiences behind my achievements.</div>
+        </div>
+        <div class="behind-grid">
+            <div class="behind-row" style="height:260px;">
+                <div class="behind-img">
+                    <img src="DAV06060.JPG" alt="FlyBox team" style="object-position:center top;" />
+                </div>
+                <div class="behind-img">
+                    <img src="DAV06267.JPG" alt="FlyBox drone light painting" style="object-position:center bottom;" />
+                </div>
+                <div class="behind-img">
+                    <img src="IMG-20210925-WA0009.JPG" alt="FlyBox drone in flight"
+                        style="object-position:center 40%;" />
+                </div>
+                <div class="behind-img">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FXDdO4SWaEw"
+                        title="FlyBox presentation video" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen style="display:block;min-height:260px;"></iframe>
+                </div>
+            </div>
+            <div class="behind-caption">FlyBox · DpIT Academy · 2020–2021 — emergency drone delivery system</div>
+
+            <div class="behind-divider"></div>
+
+            <div class="behind-row" style="height:280px;">
+                <div class="behind-img">
+                    <img src="iot_interview.JPG" alt="IoT — interview" style="object-position:center;" />
+                </div>
+                <div class="behind-img">
+                    <img src="iot_team.JPG" alt="IoT — Nabu team" style="object-position:center;" />
+                </div>
+                <div class="behind-img">
+                    <img src="iot_group.JPG" alt="IoT — group photo" style="object-position:center top;" />
+                </div>
+            </div>
+            <div class="behind-caption">Nabu · IoT Student Challenge · 2025 — cross-university team, 4th place</div>
+
+            <div class="behind-divider"></div>
+
+            <div class="behind-row" style="justify-content:center; background:var(--paper); padding: 32px 0;">
+                <div style="width:55%; overflow:hidden; border-radius:4px;">
+                    <img src="nabu_conference.jpg" alt="Nabu — ACSC Student Conference"
+                        style="width:100%;display:block;object-fit:cover;" />
+                </div>
+            </div>
+            <div class="behind-caption">Nabu · ACSC Student Conference · 2025</div>
+
+        </div>
+    </section>
+
+    <section class="projects-wrap" id="projects">
+        <div class="section-header">
+            <div class="section-label">Projects</div>
+        </div>
+        <div class="proj-grid">
+
+            <div class="proj-item proj-featured">
+                <div class="proj-num">01</div>
+                <span class="proj-type type-hw">Hardware · IoT</span>
+                <div class="proj-lock">private repo</div>
+                <div class="proj-title">FlyBox</div>
+                <div class="proj-desc">An emergency delivery solution that attaches to any commercially available drone
+                    capable of carrying at least 300g. Built with Arduino, custom hardware modules, and purpose-designed
+                    software. Developed during the DpIT Academy.</div>
+                <div class="proj-roles">
+                    <span class="proj-role">Arduino & modules</span>
+                    <span class="proj-role">Software development</span>
+                    <span class="proj-role">Project presenter</span>
+                </div>
+                <div class="proj-tags"><span class="proj-tag">Arduino</span><span class="proj-tag">IoT</span><span
+                        class="proj-tag">Hardware modules</span><span class="proj-tag">Emergency delivery</span></div>
+            </div>
+
+            <div class="proj-item proj-featured">
+                <div class="proj-num">02</div>
+                <span class="proj-type type-ai">AI · Product</span>
+                <div class="proj-lock">private repo</div>
+                <div class="proj-title">Nabu - The Personal AI Therapist</div>
+                <div class="proj-desc">A personal AI therapist built to explore how technology can support mental
+                    health. Developed in a cross-university team with two students from UTCN - competed in two national
+                    competitions and presented as a research paper at ACSC Student Conference. I contributed across the
+                    full product: from development and design to presenting the project at competitions.</div>
+                <div class="proj-roles">
+                    <span class="proj-role">Development</span>
+                    <span class="proj-role">Product design & UX</span>
+                    <span class="proj-role">Research & paper</span>
+                    <span class="proj-role">Project presenter</span>
+                </div>
+                <div class="proj-tags"><span class="proj-tag">AI</span><span class="proj-tag">NLP</span><span
+                        class="proj-tag">Cross-university team</span><span class="proj-tag">2 competitions</span></div>
+            </div>
+
+            <div class="proj-item has-link"
+                onclick="window.open('https://github.com/ralucapascuta7/ToyLanguage_Interpreter', '_blank')">
+                <div class="proj-num">03</div>
+                <span class="proj-type type-java">Java</span>
+                <div class="proj-arrow">↗</div>
+                <div class="proj-title">Toy Language Interpreter</div>
+                <div class="proj-desc">A Java interpreter simulating execution of a simple programming language.
+                    Includes heap memory management, type safety and file operations, built on a layered architecture
+                    with OOP design patterns.</div>
+                <div class="proj-roles"><span class="proj-role">Solo project</span></div>
+                <div class="proj-tags"><span class="proj-tag">Java</span><span class="proj-tag">OOP</span><span
+                        class="proj-tag">Heap management</span><span class="proj-tag">Design patterns</span></div>
+            </div>
+
+            <div class="proj-item has-link"
+                onclick="window.open('https://github.com/ralucapascuta7/trench_coat_management_app', '_blank')">
+                <div class="proj-num">04</div>
+                <span class="proj-type type-cpp">C++ · Qt</span>
+                <div class="proj-arrow">↗</div>
+                <div class="proj-title">Trench Coat Manager</div>
+                <div class="proj-desc">Desktop app in C++ with a 4-layer architecture (Domain, Repository, Service, UI).
+                    Dual Admin/User interface, full CRUD, file persistence and data visualization charts built
+                    programmatically with Qt.</div>
+                <div class="proj-roles"><span class="proj-role">Solo project</span></div>
+                <div class="proj-tags"><span class="proj-tag">C++</span><span class="proj-tag">Qt</span><span
+                        class="proj-tag">CMake</span><span class="proj-tag">4-layer arch</span></div>
+            </div>
+
+            <div class="proj-item has-link">
+                <div class="proj-num">05</div>
+                <span class="proj-type type-sql">SQL Server</span>
+                <div class="proj-arrow">↗</div>
+                <div class="proj-title">EcoTracker+</div>
+                <div class="proj-desc">Relational database with 10+ tables, stored procedures, views and versioning
+                    scripts. Performance benchmarks and execution time optimization through indexed views.</div>
+                <div class="proj-roles"><span class="proj-role">Solo project</span></div>
+                <div class="proj-tags"><span class="proj-tag">SQL Server</span><span class="proj-tag">Stored
+                        procedures</span><span class="proj-tag">Indexed views</span><span
+                        class="proj-tag">Performance</span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="section-label">Skills</div>
+        <div class="skills-cols">
+            <div>
+                <div class="skill-group-title">Languages</div>
+                <div class="skill-pills">
+                    <div class="skill-pill">C++</div>
+                    <div class="skill-pill">Java</div>
+                    <div class="skill-pill">Python</div>
+                    <div class="skill-pill">SQL</div>
+                </div>
+            </div>
+            <div>
+                <div class="skill-group-title">Concepts</div>
+                <div class="skill-pills">
+                    <div class="skill-pill">Object-Oriented Programming</div>
+                    <div class="skill-pill">Data Structures & Algorithms</div>
+                    <div class="skill-pill">Layered Architecture (MVC)</div>
+                    <div class="skill-pill">Design Patterns</div>
+                </div>
+            </div>
+            <div>
+                <div class="skill-group-title">Tools & Other</div>
+                <div class="skill-pills">
+                    <div class="skill-pill">Arduino & Hardware Modules</div>
+                    <div class="skill-pill">Qt / CMake</div>
+                    <div class="skill-pill">Git / GitHub</div>
+                    <div class="skill-pill">SQL Server</div>
+                    <div class="skill-pill">English — C1</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="section-label">Contact</div>
+        <div>
+            <div class="contact-lead">Let's build<br>something<br><em>together.</em></div>
+            <div class="contact-sub">Available for internships and junior positions.</div>
+            <div class="contact-links">
+                <a class="contact-link" href="mailto:raluca.pascuta7@gmail.com">
+                    <div class="cl-icon cl-email">✉</div>
+                    <span class="contact-link-label">Email</span>
+                    <span class="contact-link-val">raluca.pascuta7@gmail.com</span>
+                </a>
+                <a class="contact-link" href="https://github.com/ralucapascuta7" target="_blank">
+                    <div class="cl-icon cl-gh">⌥</div>
+                    <span class="contact-link-label">GitHub</span>
+                    <span class="contact-link-val">github.com/ralucapascuta7</span>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>2026 Raluca-Victoria Pășcuță</p>
+        <p>Cluj-Napoca, Romania</p>
+    </footer>
+
+</body>
+
+</html>
